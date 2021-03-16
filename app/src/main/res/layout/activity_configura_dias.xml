@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfiguraDias">
+
+    <Button
+        android:id="@+id/btnlunes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/p2btnmarginlados"
+        android:layout_marginEnd="@dimen/p2btnmarginlados"
+        android:padding="@dimen/p2btnpadding"
+        android:text="@string/p2lunes"
+        android:textSize="@dimen/p2btntext"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnmartes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnmartes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/p2btnmarginlados"
+        android:layout_marginEnd="@dimen/p2btnmarginlados"
+        android:padding="@dimen/p2btnpadding"
+        android:text="@string/p2martes"
+        android:textSize="@dimen/p2btntext"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnmiercoles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnlunes"/>
+
+    <Button
+        android:id="@+id/btnmiercoles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/p2btnmarginlados"
+        android:layout_marginEnd="@dimen/p2btnmarginlados"
+        android:padding="@dimen/p2btnpadding"
+        android:text="@string/p2miercoles"
+        android:textSize="@dimen/p2btntext"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnjueves"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnmartes"/>
+
+    <Button
+        android:id="@+id/btnjueves"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/p2btnmarginlados"
+        android:layout_marginEnd="@dimen/p2btnmarginlados"
+        android:padding="@dimen/p2btnpadding"
+        android:text="@string/p2jueves"
+        android:textSize="@dimen/p2btntext"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnviernes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnmiercoles"/>
+
+    <Button
+        android:id="@+id/btnviernes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/p2btnmarginlados"
+        android:layout_marginEnd="@dimen/p2btnmarginlados"
+        android:padding="@dimen/p2btnpadding"
+        android:text="@string/p2viernes"
+        android:textSize="@dimen/p2btntext"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnsabado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnjueves"/>
+
+    <Button
+        android:id="@+id/btnsabado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/p2btnmarginlados"
+        android:layout_marginEnd="@dimen/p2btnmarginlados"
+        android:padding="@dimen/p2btnpadding"
+        android:text="@string/p2sabado"
+        android:textSize="@dimen/p2btntext"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btndomingo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnviernes"/>
+
+    <Button
+        android:id="@+id/btndomingo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/p2btnmarginlados"
+        android:layout_marginEnd="@dimen/p2btnmarginlados"
+        android:padding="@dimen/p2btnpadding"
+        android:text="@string/p2domingo"
+        android:textSize="@dimen/p2btntext"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnsabado"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

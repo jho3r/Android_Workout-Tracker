@@ -1,0 +1,182 @@
+<resources>
+    <string name="workout">Workout</string>
+    <string name="app_name">Workout Tracker</string>
+    <!-- Alerta inicial -->
+    <string name="tituloAlert">Bienvenido</string>
+    <string name="mensageAlert">Ok, primero configuremos tus dias de entrenamiento</string>
+    <string name="btnPositivo">Configurar</string>
+    <!-- activity_main -->
+    <string name="configurar">Configurar dias</string>
+    <string name="cambiar">Cambiar dia</string>
+    <!--Dias-->
+    <string name="p2lunes">Lunes</string>
+    <string name="p2martes">Martes</string>
+    <string name="p2miercoles">Miercoles</string>
+    <string name="p2jueves">Jueves</string>
+    <string name="p2viernes">Viernes</string>
+    <string name="p2sabado">Sabado</string>
+    <string name="p2domingo">Domingo</string>
+
+    <!--Elegir ejercicio -->
+    <string-array name="brazo">
+        <item>Curl invertido</item>
+        <item>Curl con barra</item>
+        <item>Curl con mancuerna</item>
+        <item>Extension vertical triceps</item>
+        <item>Extension triceps</item>
+        <item>Press militar</item>
+        <item>Fondos en banco</item>
+    </string-array>
+
+    <string-array name="abs">
+        <item>Rueda abdominal</item>
+        <item>Plancha</item>
+        <item>Elevacion de piernas</item>
+    </string-array>
+
+    <string-array name="espalda">
+        <item>Pull ups</item>
+        <item>Remo con barra</item>
+    </string-array>
+
+    <string-array name="pecho">
+        <item>Pull over</item>
+        <item>Press en banco</item>
+        <item>Fondos</item>
+    </string-array>
+
+    <string-array name="pierna">
+        <item>Sentadillas</item>
+        <item>Zancadas</item>
+        <item>Peso muerto</item>
+        <item>Puente con peso</item>
+        <item>Elevacion talones</item>
+    </string-array>
+
+    <string-array name="cardio">
+        <item>Carrera</item>
+        <item>Trote suave</item>
+        <item>Saltar cuerda</item>
+    </string-array>
+
+    <integer-array name="Series">
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+
+    <string-array name="lunes">
+        <item>Elevacion de piernas</item>
+        <item>Rueda Abdominal</item>
+        <item>Plancha</item>
+    </string-array>
+
+    <string-array name="martes">
+        <item>Press de pecho</item>
+        <item>Curl</item>
+        <item>Press militar</item>
+        <item>Extension vertical triceps</item>
+        <item>Pull overs</item>
+        <item>Pull ups</item>
+        <item>Fondos</item>
+        <item>Remo</item>
+    </string-array>
+
+    <string-array name="miercoles">
+        <item>Sentadillas</item>
+        <item>Peso muerto</item>
+        <item>Puente con peso</item>
+        <item>Zancadas</item>
+        <item>Elevacion de tobillos</item>
+    </string-array>
+
+    <string-array name="jueves">
+        <item>Elevacion de piernas</item>
+        <item>Rueda Abdominal</item>
+        <item>Plancha</item>
+    </string-array>
+
+    <string-array name="viernes">
+        <item>Press de pecho</item>
+        <item>Curl con mancuerna</item>
+        <item>Curl invertido</item>
+        <item>Press militar</item>
+        <item>Extension vertical triceps</item>
+        <item>Pull overs</item>
+        <item>Pull ups</item>
+        <item>Fondos</item>
+        <item>Remo</item>
+    </string-array>
+
+    <string-array name="sabado">
+        <item>Sentadillas</item>
+        <item>Peso muerto</item>
+        <item>Puente con peso</item>
+        <item>Zancadas</item>
+        <item>Elevacion de tobillos</item>
+    </string-array>
+
+    <string-array name="domingo">
+        <item>cardio</item>
+    </string-array>
+
+    <string-array name="lunesrep">
+        <item>10</item>
+        <item>10</item>
+        <item>1:00</item>
+    </string-array>
+
+    <string-array name="martesrep">
+        <item>15</item>
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>15</item>
+        <item>6</item>
+        <item>6</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="miercolesrep">
+        <item>40</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="juevesrep">
+        <item>10</item>
+        <item>10</item>
+        <item>1:00</item>
+    </string-array>
+
+    <string-array name="viernesrep">
+        <item>15</item>
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>15</item>
+        <item>6</item>
+        <item>6</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="sabadorep">
+        <item>40</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="domingorep">
+        <item>30:00</item>
+    </string-array>
+
+</resources>

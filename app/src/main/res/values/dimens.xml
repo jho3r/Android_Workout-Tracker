@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="p1text">38sp</dimen>
+    <dimen name="p1btntext">25sp</dimen>
+    <dimen name="p1btnpadd">15dp</dimen>
+
+    <!-- activity_inicio_entreno -->
+    <dimen name="titulo">50sp</dimen>
+    <dimen name="tituloM">15dp</dimen>
+    <dimen name="conteo">40sp</dimen>
+    <dimen name="ejercicio">30sp</dimen>
+    <!--Dias-->
+    <dimen name="p2btntext">22sp</dimen>
+    <dimen name="p2btnmarginlados">60dp</dimen>
+    <dimen name="p2btnpadding">15dp</dimen>
+
+    <!--Ejercicios master -->
+    <dimen name="p3margen">10dp</dimen>
+
+    <!-- Elegir ejercicio -->
+    <dimen name="textorow">20sp</dimen>
+</resources>
